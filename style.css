@@ -1,0 +1,75 @@
+body{
+          background-color: #efefef;
+          -webkit-background-image: url('img/1.png');
+          -moz-background-image: url('img/1.png');
+          -ms-background-image: url('img/1.png');
+          -o-background-image: url('img/1.png');
+          background-image: url('img/1.png');
+          -o-background-size: cover;
+          -webkit-background-size: cover;
+          -ms-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          color: #efefef;
+        }
+        #names{
+          text-align: center;
+          color: #ececec;
+          margin: 3%;
+        }
+        .wrapper{
+          display: grid;
+          grid-template-columns: 30% 40% 30%;
+          grid-column-gap:0px;
+          grid-row-gap: 2em;
+          grid-auto-rows: minmax(100px ,auto);
+          color: #eee;
+          text-align: center;
+          font-size: 15px;
+
+
+        }
+        .wrapper > div {
+          background: #343434;
+          padding: .5em;
+        }
+        .wrapper > div:nth-child(odd){
+          background: #323232;
+        }
+        hr{
+          max-width: 70%;
+        }
+        p{
+          padding: 5%;
+          -o-border: 1px solid #2381b8;
+          -ms-border: 1px solid #2381b8;
+          -moz-border: 1px solid #2381b8;
+          -webkit-border: 1px solid #2381b8;
+          border: 1px solid #2381b8;
+          -o-border-radius: 15px;
+          -ms-border-radius: 15px;
+          -moz-border-radius: 15px;
+          -webkit-border-radius: 15px;
+          border-radius: 15px;
+          border-width: inherit;
+          margin: 10%;
+          font-size: 20px;
+        }
+        p:hover{
+          padding: 5%;
+          -o-border: 1px solid #2381b8;
+          -ms-border: 1px solid #2381b8;
+          -moz-border: 1px solid #2381b8;
+          -webkit-border: 1px solid #2381b8;
+          border: 1px solid #2381b8;
+          -o-border-radius: 15px;
+          -ms-border-radius: 15px;
+          -moz-border-radius: 15px;
+          -webkit-border-radius: 15px;
+          border-radius: 15px;
+          border-width: inherit;
+          margin: 10%;
+          font-size: 20px;
+          background-color: white !important;
+          color: black;
+        }
